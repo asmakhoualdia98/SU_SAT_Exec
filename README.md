@@ -19,7 +19,7 @@ The project includes tools for:
 
 - ✅ Supports multiple graph types: `ring`, `chain`, `star`
 - 🔁 Behavior simulation: `CONV` (converging) and `DIV` (diverging)
-- ⚙️ Model options: `INI`, `ER`, `OL`, `ICP`, `ICT` and their combinations
+- ⚙️ Model options: `INI`, `ER`, `OL`, `ICP`, `ICT`, `ER-ICP`, `ER-ICT`, `OL-ICP`, `OL-ICT`
 - 🛠 Generates CNF files encoding Synchronous Unison algorithm properties
 - 🧠 Batch generation and parallel solving with CPU control
 - 📁 Auto-organized benchmark directory structure
