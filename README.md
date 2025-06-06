@@ -1,4 +1,4 @@
-# Analyzing Synchronous Unisson Through SAT
+# Analyzing Synchronous Unison Through SAT
 
 ## 🧩 Overview
 
