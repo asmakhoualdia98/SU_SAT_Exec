@@ -1,4 +1,4 @@
-# GraphSolver Project
+# Analyzing Synchronous Unisson Through SAT
 
 ## 🧩 Overview
 
