@@ -6,14 +6,6 @@ This project is a Python-based framework for modeling and analyzing **self-stabi
 
 The project allows simulation over various graph topologies, configuration models, and behavioral assumptions to assess algorithm correctness under different structural constraints.
 
----
-
-## 📚 References
-📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
-A. Khoualdia, S. Cherif, S. Devismes, L. Robert, CP 2025 (International Conference on Principles and Practice of Constraint Programming), Glasgow, Scotland.
-
-📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
-A. Khoualdia, S. Cherif, S. Devismes, L. Robert, JFPC 2025 (Journées Francophones de Programmation par Contraintes), Dijon, France.
 
 ---
 
@@ -23,10 +15,20 @@ A. Khoualdia, S. Cherif, S. Devismes, L. Robert, JFPC 2025 (Journées Francophon
 - 🔁 Behavior simulation: `CONV` (converging) and `DIV` (diverging)
 - ⚙️ Model options: `INI`, `ER`, `OL`, `ICP`, `ICT`, `ER-ICP`, `ER-ICT`, `OL-ICP`, `OL-ICT`
 - 🛠 Generates CNF files encoding Synchronous Unison algorithm properties
-- 🧠  Batch generation and SAT solving
-- 📁 Auto-organized benchmark directory structure
+
 
 ---
+
+## 📚 References
+
+📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
+A. Khoualdia, S. Cherif, S. Devismes, L. Robert, CP 2025 (International Conference on Principles and Practice of Constraint Programming), Glasgow, Scotland.
+
+📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
+A. Khoualdia, S. Cherif, S. Devismes, L. Robert, JFPC 2025 (Journées Francophones de Programmation par Contraintes), Dijon, France.
+
+---
+
 
 ## 📦 Installation & Usage (Generate a Single CNF Instance)
 
