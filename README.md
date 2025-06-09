@@ -10,8 +10,17 @@ The project includes tools for:
 
 - CNF file generation from graph and algorithm parameters
 - Batch instance creation for broad exploration
-- Parallel SAT solver execution for scalability
+- SAT solver execution for scalability
 - Hierarchical benchmark organization for structured experimentation
+
+---
+
+## 📚 References
+📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
+A. Khoualdia, S. Cherif, S. Devismes, L. Robert, CP 2025 (International Conference on Principles and Practice of Constraint Programming), Glasgow, Scotland.
+
+🧪 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
+A. Khoualdia, S. Cherif, S. Devismes, L. Robert, JFPC 2025 (Journées Francophones de Programmation par Contraintes), Dijon, France.
 
 ---
 
@@ -21,7 +30,7 @@ The project includes tools for:
 - 🔁 Behavior simulation: `CONV` (converging) and `DIV` (diverging)
 - ⚙️ Model options: `INI`, `ER`, `OL`, `ICP`, `ICT`, `ER-ICP`, `ER-ICT`, `OL-ICP`, `OL-ICT`
 - 🛠 Generates CNF files encoding Synchronous Unison algorithm properties
-- 🧠 Batch generation and parallel solving with CPU control
+- 🧠  Batch generation and SAT solving
 - 📁 Auto-organized benchmark directory structure
 
 ---
@@ -31,4 +40,5 @@ The project includes tools for:
 ```bash
 git clone <repository-url>
 cd CP_Code_Parallel_SAT_SU_Exec
+pip install python-sat[pblib,aiger]
 python3 GraphSolver.py <graph_type> <num_nodes> <modulus> <CONV|DIV> <model>
