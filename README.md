@@ -6,20 +6,13 @@ This project is a Python-based framework for modeling and analyzing **self-stabi
 
 The project allows simulation over various graph topologies, configuration models, and behavioral assumptions to assess algorithm correctness under different structural constraints.
 
-The project includes tools for:
-
-- CNF file generation from graph and algorithm parameters
-- Batch instance creation for broad exploration
-- SAT solver execution for scalability
-- Hierarchical benchmark organization for structured experimentation
-
 ---
 
 ## 📚 References
 📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
 A. Khoualdia, S. Cherif, S. Devismes, L. Robert, CP 2025 (International Conference on Principles and Practice of Constraint Programming), Glasgow, Scotland.
 
-🧪 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
+📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
 A. Khoualdia, S. Cherif, S. Devismes, L. Robert, JFPC 2025 (Journées Francophones de Programmation par Contraintes), Dijon, France.
 
 ---
