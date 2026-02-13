@@ -4,29 +4,42 @@ import sys
 import os
 from GraphModel import GraphModel
 
-VALID_GRAPH_TYPES = {"ring", "chain", "star"}
+VALID_GRAPH_TYPES = {"ring", "chain", "star", "grid", "torus", "random"}
 VALID_BEHAVIORS = {"CONV", "DIV"}
 VALID_MODELS = {
-    "INI", "ER", "OL", "ICP", "ICT",
-    "ER-ICP", "ER-ICT", "OL-ICP", "OL-ICT"
+    "DIR", "COM", "RE", "LO", "ICT", "ICX", "SC", "CU"
 }
 
 def check_args(graph_type, num_nodes, modulus, behavior, model):
     errors = []
 
     if graph_type not in VALID_GRAPH_TYPES:
-        errors.append(f"❌ Invalid topology: '{graph_type}'. Choose among {', '.join(VALID_GRAPH_TYPES)}.")
+        errors.append(
+            f"❌ Invalid topology: '{graph_type}'. Choose among {', '.join(VALID_GRAPH_TYPES)}."
+        )
 
     if behavior not in VALID_BEHAVIORS:
-        errors.append(f"❌ Invalid behavior: '{behavior}'. Choose 'CONV' or 'DIV'.")
+        errors.append(
+            f"❌ Invalid behavior: '{behavior}'. Choose 'CONV' or 'DIV'."
+        )
 
     if model not in VALID_MODELS:
-        errors.append(f"❌ Invalid configuration model: '{model}'. Choose among {', '.join(VALID_MODELS)}.")
+        errors.append(
+            f"❌ Invalid configuration model: '{model}'. Choose among {', '.join(VALID_MODELS)}."
+        )
 
-    if behavior == "DIV" and any(opt in model for opt in ["ICP", "ICT", "ER-ICP", "ER-ICT", "OL-ICP", "OL-ICT"]):
-        errors.append("❌ ICP or ICT models (or their combinations) are not compatible with DIV.")
+    if behavior == "DIV" and any(opt in model for opt in ("ICT", "ICX")):
+        errors.append(
+            "❌ ICP or ICT models (or their combinations) are not compatible with DIV."
+        )
+
+    if behavior == "CONV" and any(opt in model for opt in ("SC", "CU")):
+        errors.append(
+            "❌ SC or CU models (or their combinations) are not compatible with CONV."
+        )
 
     return errors
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 6:
