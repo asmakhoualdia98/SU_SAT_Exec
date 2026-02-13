@@ -34,7 +34,7 @@ A. Khoualdia, S. Cherif, S. Devismes, L. Robert, JFPC 2025 (Journées Francophon
 
 ```bash
 git clone <repository-url>
-cd CP_Code_Parallel_SAT_SU_Exec
 pip install python-sat[pblib,aiger]
 python3 GraphSolver.py <graph_type> <num_nodes> <modulus> <CONV|DIV> <model>
+
 
