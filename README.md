@@ -21,11 +21,9 @@ The project allows simulation over various graph topologies, configuration model
 
 ## 📚 References
 
-📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
-A. Khoualdia, S. Cherif, S. Devismes, L. Robert, CP 2025 (International Conference on Principles and Practice of Constraint Programming), Glasgow, Scotland.
+📄 A. Khoualdia, S. Cherif, S. Devismes, L. Robert. Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability. International Conference on Principles and Practice of Constraint Programming (CP 2025), Glasgow, Scotland. DOI: https://doi.org/10.4230/LIPIcs.CP.2025.19/
 
-📄 Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability
-A. Khoualdia, S. Cherif, S. Devismes, L. Robert, JFPC 2025 (Journées Francophones de Programmation par Contraintes), Dijon, France.
+📄 Asma Khoualdia, Sami Cherif, Stéphane Devismes, Léo Robert. Analyse de l'autostabilisation de l'unisson synchrone via la satisfiabilité propositionnelle. Journées Francophones de Programmation par Contraintes (JFPC 2025), Jun 2025, Dijon, France. https://hal.science/hal-05208079/
 
 ---
 
