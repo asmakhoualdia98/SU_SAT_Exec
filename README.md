@@ -19,14 +19,6 @@ The project allows simulation over various graph topologies, configuration model
 
 ---
 
-## 📚 References
-
-📄 A. Khoualdia, S. Cherif, S. Devismes, L. Robert. Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability. International Conference on Principles and Practice of Constraint Programming (CP 2025), Glasgow, Scotland. [DOI: https://doi.org/10.4230/LIPIcs.CP.2025.19/](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2025.19)
-
-📄 Asma Khoualdia, Sami Cherif, Stéphane Devismes, Léo Robert. Analyse de l'autostabilisation de l'unisson synchrone via la satisfiabilité propositionnelle. Journées Francophones de Programmation par Contraintes (JFPC 2025), Jun 2025, Dijon, France. [https://hal.science/hal-05208079/](https://hal-emse.ccsd.cnrs.fr/UPJV-MIS-ALCO/hal-05208079v1)
-
----
-
 
 ## 📦 Installation & Usage (Generate a Single CNF Instance)
 
@@ -34,5 +26,13 @@ The project allows simulation over various graph topologies, configuration model
 git clone <repository-url>
 pip install python-sat[pblib,aiger]
 python3 GraphSolver.py <graph_type> <num_nodes> <modulus> <CONV|DIV> <model>
+
+---
+
+## 📚 References
+
+📄 A. Khoualdia, S. Cherif, S. Devismes, L. Robert. Analyzing Self-Stabilization of Synchronous Unison via Propositional Satisfiability. International Conference on Principles and Practice of Constraint Programming (CP 2025), Glasgow, Scotland. [DOI: https://doi.org/10.4230/LIPIcs.CP.2025.19/](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2025.19)
+
+📄 Asma Khoualdia, Sami Cherif, Stéphane Devismes, Léo Robert. Analyse de l'autostabilisation de l'unisson synchrone via la satisfiabilité propositionnelle. Journées Francophones de Programmation par Contraintes (JFPC 2025), Jun 2025, Dijon, France. [https://hal.science/hal-05208079/](https://hal-emse.ccsd.cnrs.fr/UPJV-MIS-ALCO/hal-05208079v1)
 
 
