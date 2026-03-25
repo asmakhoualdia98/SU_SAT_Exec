@@ -26,7 +26,7 @@ The project allows simulation over various graph topologies, configuration model
 git clone <repository-url>
 pip install python-sat[pblib,aiger]
 python3 GraphSolver.py <graph_type> <num_nodes> <modulus> <CONV|DIV> <model>
-
+```
 ---
 
 ## 📚 References
